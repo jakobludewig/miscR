@@ -1,0 +1,10 @@
+Package: miscR
+Title: Random Collection of R Functionalities for Everyday Use
+Version: 0.0.0.9000
+Authors@R: person("Jakob", "Ludewig", email = "first.last@example.com", role = c("aut", "cre"))
+Description: Random Collection of R Functionalities for Everyday Use
+Depends:
+    R (>= 3.2.2)
+License: What license is it under?
+LazyData: true
+RoxygenNote: 5.0.1
