@@ -6,8 +6,11 @@
 #' @export
 #' @examples
 #' CopyToClipboard(data)
-CopyToClipboard <- function(data) {
+CopyToClipboard <- function(data,
+                            use_colnames = F,
+                            use_rownames = F,
+                            sep = " ") {
    clip <- pipe("pbcopy","w")
-   write.table(data,file=clip,row.names = F,col.names=F)
+   write.table(data,file=clip,row.names = use_rownames,col.names=use_colnames, sep =sep)
    close(clip)
 }

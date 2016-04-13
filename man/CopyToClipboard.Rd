@@ -4,7 +4,7 @@
 \alias{CopyToClipboard}
 \title{Copy Stuff to Clipboard}
 \usage{
-CopyToClipboard(data)
+CopyToClipboard(data, use_colnames = F, use_rownames = F, sep = " ")
 }
 \arguments{
 \item{R}{elements (tested only on vectors)}
