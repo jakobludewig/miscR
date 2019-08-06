@@ -7,7 +7,7 @@
 #' @export
 #' @examples
 #' MapValuesMany(x,from,to)
-MapValuesMany <- function(x, from, to) {
+MapValuesMany <- function(x, from, to=names(from)) {
    # nb not handling factor variable
    stopifnot(length(from)==length(to))
    # not worrying if from values not in x
